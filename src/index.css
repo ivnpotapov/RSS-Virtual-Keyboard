@@ -1,0 +1,133 @@
+@import url('./vendor/normalize.css');
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container__title {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 42px;
+  color: #000;
+}
+
+.container__descr {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto;
+  padding: 5px;
+  color: #000;
+}
+.textarea:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.keyboard {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+  width: 700px;
+  padding: 5px;
+  background: #888888;
+  border-radius: 5px;
+}
+
+.keyboard__row {
+  display: flex;
+  column-gap: 7px;
+  height: 40px;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  background: #444444;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  user-select: none;
+  transition: border-radius 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.key:hover {
+  background: #79aa89;
+}
+
+.key_type_colored {
+  font-weight: 700;
+  background-color: #222222;
+}
+
+.key_type_active {
+  background-color: #edf648;
+  color: #000;
+  border-radius: 50%;
+}
+
+.key_type_duble {
+  width: 90px;
+  min-height: 40px;
+  font-weight: 700;
+}
+
+.key_type_max {
+  width: 273px;
+}
+
+/* 
+.keyboard .AltLeft,
+.keyboard .AltRight,
+.keyboard .ArrowUp,
+.keyboard .ArrowLeft,
+.keyboard .ArrowDown,
+.keyboard .ArrowRight,
+.keyboard .Backspace,
+.keyboard .CapsLock,
+.keyboard .ControlLeft,
+.keyboard .ControlRight,
+.keyboard .Delete,
+.keyboard .Enter,
+.keyboard .ShiftLeft,
+.keyboard .ShiftRight,
+.keyboard .Tab,
+.keyboard .MetaLeft {
+  font-weight: 600;
+  background-color: #222222;
+}
+.keyboard .Tab {
+  width: 50px;
+}
+.keyboard .Backspace,
+.keyboard .CapsLock,
+.keyboard .ShiftLeft {
+  width: 100px;
+}
+.keyboard .Delete {
+  width: 44px;
+}
+.keyboard .Enter,
+.keyboard .ShiftRight {
+  width: 86px;
+}
+.keyboard .Space {
+  width: 330px;
+} */
